@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h2 {
+    color: #174b85;
+}
+
+/* Dấu đánh dấu hình vuông */
+.subjects {
+    list-style-type: square;
+}
+
+/* Số La Mã viết hoa */
+.steps {
+    list-style-type: upper-roman;
+}
+
+/* Hình ảnh làm dấu đánh dấu */
+.tools {
+    list-style-type: disc;
+    list-style-image: url("marker.png");
+}
+
+/* So sánh vị trí dấu đánh dấu */
+.outside,
+.inside {
+    width: 260px;
+    padding-left: 30px;
+}
+
+.outside {
+    list-style-position: outside;
+}
+
+.inside {
+    list-style-position: inside;
+}
+
+.outside li,
+.inside li {
+    background-color: #eeeeee;
+    margin-bottom: 10px;
+}
+
+/* Rút gọn: kiểu, vị trí, hình ảnh */
+.shorthand {
+    list-style: square inside url("marker.png");
+}
+
+/* Màu sắc và khoảng cách */
+.languages {
+    background-color: #e3f2fd;
+    padding: 20px 40px;
+}
+
+.languages li {
+    color: #174b85;
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+/* Bài tập tổng hợp */
+.roadmap {
+    list-style: upper-roman inside none;
+    background-color: #e8f5e9;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.roadmap li {
+    color: #256029;
+    padding: 8px;
+    margin: 6px 0;
+}
